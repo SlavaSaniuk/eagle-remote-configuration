@@ -1,0 +1,4 @@
+/.idea/
+/eagle-remote-configuration-core/target/
+/eagle-remote-configuration-server/target/
+/eagle-remote-configuration.iml

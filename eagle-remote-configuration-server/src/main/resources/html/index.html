@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+	<title> Eagle remote configuration </title>
+
+	<meta charset="utf-8">
+
+	<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+	<script src="libs/Styles.js" th:src="@{libs/Styles.js}"></script>
+	<script src="libs/components/PreferencesButton.js" th:src="@{libs/components/PreferencesButton.js}"></script>
+	<script src="libs/components/ProjectsMenu.js" th:src="@{libs/components/ProjectsMenu.js}"></script>
+	<script src="libs/components/ProjectsMenuContent.js" th:src="@{libs/components/ProjectsMenuContent.js}"></script>
+	<script src="libs/components/AddButton.js" th:src="@{libs/components/AddButton.js}"></script>
+
+
+	<script type="text/javascript">
+		const translate_Preferences_btn_text = "Preferences";
+		const translate_Project_menu_title = "Projects";
+
+		const translate_Project_menu_content_NO_PROJECTS = "You do not have existing projects";
+
+		const translate_Project_menu_add_btn = "Create project";
+	</script>
+
+	<script type="text/javascript">
+		const link_Preferences_controller = "http://localhost";
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" th:href="@{styles/styles.css}" />
+	<link rel="stylesheet" type="text/css" href="styles/animations.css" th:href="@{styles/animations.css}" />
+</head>
+<body>
+
+	<div id="header"> </div>
+	<script src="libs/Header.js" th:src="@{libs/Header.js}"> </script>
+
+	<div id="left_menu"></div>
+	<script src="libs/Menu.js" th:src="@{libs/Menu.js}"></script>
+
+	<div id="content"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "OpenSans";
+
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	background-color: #FFF;
+
+	-webkit-box-shadow: inset 0px 0px 100px -25px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 180px -25px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 50px -25px rgba(0,0,0,1);
+
+	position: fixed;
+	margin: auto;
+
+	width: 100%;
+	height: 100%;
+
+}
+
+#header {
+
+	width: 100%;
+	height: 50px;
+
+	position: fixed;
+	margin: auto;
+
+	background-color: #000;
+	opacity: 0.8;
+}
+
+.header_block {
+	
+	width: 1000px;
+	height: auto;
+	transform: translateX(50%);
+
+}
+
+.preferences_btn {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	width: 130px;
+
+	position: absolute;
+	right: 0;
+
+	cursor: "pointer";
+
+}

@@ -1,0 +1,43 @@
+.projects_menu_content {
+	width: 90%;
+
+	margin: auto;
+	height: 0px;
+
+	visibility: hidden;
+	transition: height 2s;
+
+}
+
+.unwrapped_projects_menu_content {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #C0C0C0;
+	visibility: visible;
+}
+
+@keyframes addButton_mouseEnter {
+	
+	from {
+		background-color: #448844;
+	}
+	
+	to {
+		background-color: #000;
+	}
+}
+
+.animation_addButton_mouseEnter {
+	animation-name: addButton_mouseEnter;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+.animation_addButton_mouseLeave  {
+	animation-name: addButton_mouseEnter;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
+}
